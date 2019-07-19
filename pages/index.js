@@ -29,6 +29,7 @@ function getSummaries() {
   ];
 }
 
+
 const useStyles = makeStyles({
   root: {
     flexGrow: 1
@@ -72,6 +73,7 @@ export default function Dashboard() {
             </Grid>
           ))}
         </Grid>
+        
       </div>
     </Layout>
   );
